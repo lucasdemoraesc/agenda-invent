@@ -1,8 +1,8 @@
-﻿using agendaInvent.Common.Resources;
-using System;
+﻿using System;
 using System.Text.RegularExpressions;
+using AgendaInvent.Common.Resources;
 
-namespace agendaInvent.Common.Validation
+namespace AgendaInvent.Common.Validation
 {
     public class PhoneAssertionConcern
     {

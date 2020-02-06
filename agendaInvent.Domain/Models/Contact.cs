@@ -1,14 +1,17 @@
 ﻿using System;
-using agendaInvent.Common.Validation;
-using agendaInvent.Common.Resources;
+using AgendaInvent.Common.Resources;
+using AgendaInvent.Common.Validation;
 
-namespace agendaInvent.Domain
+namespace AgendaInvent.Domain.Models
 {
 	public class Contact
 	{
 		#region Builders
+		protected Contact() { }
+
 		public Contact(string name, string phone)
 		{
+			this.Id = Guid.NewGuid();
 			this.Name = name;
 			this.Phone = phone;
 		}
@@ -20,7 +23,7 @@ namespace agendaInvent.Domain
 		#endregion
 
 		#region Properties
-		public int Id { get; private set; }
+		public Guid Id { get; private set; }
 		public string Name { get; private set; }
 		public string Phone { get; private set; }
 		public string Email { get; private set; }
@@ -44,7 +47,7 @@ namespace agendaInvent.Domain
 
 		public void Validate()
 		{
-			AssertionConcern.AssertArgumentLength(this.Name, 3, 30, Errors.InvalidName);
+			AssertionConcern.AssertArgumentLength(this.Name, 3, 50, Errors.InvalidName);
 			EmailAssertionConcern.AssertIsValid(this.Email);
 			PhoneAssertionConcern.AssertIsValid(this.Phone);
 		}

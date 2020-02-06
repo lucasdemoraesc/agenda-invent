@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associada a um assembly.
-[assembly: AssemblyTitle("AgendaInvent.Common")]
+[assembly: AssemblyTitle("AgendaInvent.Infrastructure")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AgendaInvent.Common")]
+[assembly: AssemblyProduct("AgendaInvent.Infrastructure")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
-[assembly: Guid("daca0e65-33b5-4885-a0c5-8a9b90ee293d")]
+[assembly: Guid("b70674e9-2c2e-4c77-86a2-f2466aad37f0")]
 
 // As informações da versão de um assembly consistem nos quatro valores a seguir:
 //

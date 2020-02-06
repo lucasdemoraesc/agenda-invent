@@ -1,17 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using agendaInvent.Domain;
+using AgendaInvent.Domain.Models;
 
-namespace agendaInvent.Test
+namespace AgendaInvent.Test
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			var contato = new Contact("Lucas", "6299692322", "lucasdemoraesc@gmail.com");
+			var contato = new Contact("Lucas", "62996692322", "lucasdemoraesc@gmail.com");
 			contato.Validate();
 
 			Console.WriteLine(contato.Name);

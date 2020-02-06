@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace agendaInvent.Common.Validation
+namespace AgendaInvent.Common.Validation
 {
     public class AssertionConcern
     {

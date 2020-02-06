@@ -41,13 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\Repositories\IContactRepository.cs" />
     <Compile Include="Models\Contact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\agendaInvent.Common\agendaInvent.Common.csproj">
+    <ProjectReference Include="..\agendaInvent.Common\AgendaInvent.Common.csproj">
       <Project>{daca0e65-33b5-4885-a0c5-8a9b90ee293d}</Project>
-      <Name>agendaInvent.Common</Name>
+      <Name>AgendaInvent.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
