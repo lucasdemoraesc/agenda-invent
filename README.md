@@ -1,4 +1,4 @@
-# Sistema de agenda
+# Agenda de contatos
 #### Autor: Lucas de Moraes Corrêa
 #### Empresa solicitante: Invent Software
 
