@@ -8,7 +8,6 @@ namespace AgendaInvent.Domain.Contracts.Repositories
 		Contact GetById(Guid Id);
 		Contact GetByName(string name);
 		Contact GetByPhone(string phone);
-		Contact GetByEmail(string email);
 
 		void Create(Contact ctt);
 		void Update(Contact ctt);

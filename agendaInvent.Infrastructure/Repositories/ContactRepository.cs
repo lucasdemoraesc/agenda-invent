@@ -26,11 +26,6 @@ namespace AgendaInvent.Infrastructure.Repositories
 			return _context.Ctts.Where(x => x.Phone == phone).First();
 		}
 
-		public Contact GetByEmail(string email)
-		{
-			return _context.Ctts.Where(x => x.Email.ToLower() == email.ToLower()).First();
-		}
-
 		public void Create(Contact ctt)
 		{
 			_context.Ctts.Add(ctt);

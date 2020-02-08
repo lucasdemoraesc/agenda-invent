@@ -31,9 +31,6 @@ namespace AgendaInvent.Infrastructure.Data.Map
 
 			Property(x => x.Email)
 				.HasMaxLength(80);
-				//.HasColumnAnnotation(
-				//	IndexAnnotation.AnnotationName,
-				//	new IndexAnnotation(new IndexAttribute("IX_EMAIL", 3) { IsUnique = true }));
 		}
 	}
 }
