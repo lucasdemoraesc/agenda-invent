@@ -65,6 +65,10 @@
       <Project>{69bd27b7-bb22-4167-b2b8-0e04345ebf4c}</Project>
       <Name>AgendaInvent.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\agendaInvent.Infrastructure\AgendaInvent.Infrastructure.csproj">
+      <Project>{b70674e9-2c2e-4c77-86a2-f2466aad37f0}</Project>
+      <Name>AgendaInvent.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -7,7 +7,7 @@ using AgendaInvent.Infrastructure.Data;
 
 namespace AgendaInvent.Infrastructure.Repositories
 {
-	class ContactRepository : IContactRepository
+	public class ContactRepository : IContactRepository
 	{
 		private AppDataContext _context = new AppDataContext();
 

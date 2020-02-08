@@ -12,7 +12,8 @@ namespace AgendaInvent.Infrastructure.Data.Map
 			ToTable("Contact");
 
 			Property(x => x.Id)
-				.HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+				.HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
+;
 
 			Property(x => x.Name)
 				.HasMaxLength(50)
@@ -25,15 +26,14 @@ namespace AgendaInvent.Infrastructure.Data.Map
 				.HasMaxLength(12)
 				.HasColumnAnnotation(
 					IndexAnnotation.AnnotationName,
-					new IndexAnnotation(new IndexAttribute("IX_PHONE", 1) { IsUnique = true }))
+					new IndexAnnotation(new IndexAttribute("IX_PHONE", 2) { IsUnique = true }))
 				.IsRequired();
 
 			Property(x => x.Email)
-				.HasMaxLength(80)
-				.HasColumnAnnotation(
-					IndexAnnotation.AnnotationName,
-					new IndexAnnotation(new IndexAttribute("IX_EMAIL", 1) { IsUnique = true }))
-				.IsRequired();
+				.HasMaxLength(80);
+				//.HasColumnAnnotation(
+				//	IndexAnnotation.AnnotationName,
+				//	new IndexAnnotation(new IndexAttribute("IX_EMAIL", 3) { IsUnique = true }));
 		}
 	}
 }
