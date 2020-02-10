@@ -9,7 +9,12 @@ namespace AgendaInvent.Infrastructure.Repositories
 {
 	public class ContactRepository : IContactRepository
 	{
-		private AppDataContext _context = new AppDataContext();
+		private AppDataContext _context;
+
+		public ContactRepository(AppDataContext context)
+		{
+			this._context = context;
+		}
 
 		public Contact GetById(Guid Id)
 		{
