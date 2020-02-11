@@ -50,13 +50,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DependecyResolver.cs" />
+    <Compile Include="DependencyResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AgendaInvent.Business\AgendaInvent.Business.csproj">
+      <Project>{a86477f4-a39c-433c-9f3b-188dfdcebd17}</Project>
+      <Name>AgendaInvent.Business</Name>
+    </ProjectReference>
     <ProjectReference Include="..\agendaInvent.Domain\AgendaInvent.Domain.csproj">
       <Project>{69bd27b7-bb22-4167-b2b8-0e04345ebf4c}</Project>
       <Name>AgendaInvent.Domain</Name>

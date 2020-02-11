@@ -1,8 +1,13 @@
-﻿using System;
-using AgendaInvent.Domain.Contracts.Repositories;
-using AgendaInvent.Domain.Models;
-using AgendaInvent.Infrastructure.Data;
-using AgendaInvent.Infrastructure.Repositories;
+﻿using AgendaInvent.Domain.Contracts.Services;
+using AgendaInvent.Startup;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using Unity;
 
 namespace AgendaInvent.Test
 {
@@ -10,27 +15,29 @@ namespace AgendaInvent.Test
 	{
 		static void Main(string[] args)
 		{
-			var contato = new Contact("Sâmea", "62995048152");
-			contato.Validate();
+			// Idioma
+			CultureInfo ci = new CultureInfo("pt-BR");
+			Thread.CurrentThread.CurrentCulture = ci;
+			Thread.CurrentThread.CurrentUICulture = ci;
 
-			using (IContactRepository CttRepo = new ContactRepository(new AppDataContext()))
-			{
-				try
-				{
-					CttRepo.Create(contato);
-				}
-				catch(Exception ex)
-				{
-					Console.WriteLine("Usuário já existe");
-				}
-			}
+			var container = new UnityContainer();
+			DependencyResolver.Resolve(container);
 
-			using (IContactRepository CttRepo = new ContactRepository(new AppDataContext()))
+			var service = container.Resolve<IContactService>();
+			try
 			{
-				var test = CttRepo.GetByPhone(contato.Phone);
-				Console.WriteLine(test.Name);
-				Console.WriteLine(test.Phone);
+				service.Register("Sâmea Natasha", "62995048152");
+				Console.WriteLine("Usuário cadastrado com sucesso!");
 			}
+			catch (Exception ex)
+			{
+				Console.WriteLine(ex.Message);
+			}
+			finally
+			{
+				service.Dispose();
+			}
+			Console.ReadKey();
 		}
 	}
 }

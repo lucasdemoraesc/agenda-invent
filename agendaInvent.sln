@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Domain", "agendaInvent.Domain\AgendaInvent.Domain.csproj", "{69BD27B7-BB22-4167-B2B8-0E04345EBF4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Test", "agendaInvent.Test\AgendaInvent.Test.csproj", "{41880FD5-62E1-4ECD-A71C-DD18075FC232}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Common", "agendaInvent.Common\AgendaInvent.Common.csproj", "{DACA0E65-33B5-4885-A0C5-8A9B90EE293D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Infrastructure", "agendaInvent.Infrastructure\AgendaInvent.Infrastructure.csproj", "{B70674E9-2C2E-4C77-86A2-F2466AAD37F0}"
@@ -14,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Startup", "agendaInvent.Startup\AgendaInvent.Startup.csproj", "{59359D67-71CE-4D18-A206-0A9330217EE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Business", "AgendaInvent.Business\AgendaInvent.Business.csproj", "{A86477F4-A39C-433C-9F3B-188DFDCEBD17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Test", "AgendaInvent.Test\AgendaInvent.Test.csproj", "{5E41D77B-BE5E-4735-A17B-CFBD7687490A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,6 @@ Global
 		{69BD27B7-BB22-4167-B2B8-0E04345EBF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69BD27B7-BB22-4167-B2B8-0E04345EBF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69BD27B7-BB22-4167-B2B8-0E04345EBF4C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41880FD5-62E1-4ECD-A71C-DD18075FC232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41880FD5-62E1-4ECD-A71C-DD18075FC232}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41880FD5-62E1-4ECD-A71C-DD18075FC232}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41880FD5-62E1-4ECD-A71C-DD18075FC232}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DACA0E65-33B5-4885-A0C5-8A9B90EE293D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DACA0E65-33B5-4885-A0C5-8A9B90EE293D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DACA0E65-33B5-4885-A0C5-8A9B90EE293D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{A86477F4-A39C-433C-9F3B-188DFDCEBD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A86477F4-A39C-433C-9F3B-188DFDCEBD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A86477F4-A39C-433C-9F3B-188DFDCEBD17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E41D77B-BE5E-4735-A17B-CFBD7687490A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E41D77B-BE5E-4735-A17B-CFBD7687490A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E41D77B-BE5E-4735-A17B-CFBD7687490A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E41D77B-BE5E-4735-A17B-CFBD7687490A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

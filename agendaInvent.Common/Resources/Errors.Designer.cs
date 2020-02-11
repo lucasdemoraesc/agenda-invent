@@ -61,7 +61,7 @@ namespace AgendaInvent.Common.Resources {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a This contact already exists.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a There is already a contact with this name or phone.
         /// </summary>
         public static string ContactExists {
             get {

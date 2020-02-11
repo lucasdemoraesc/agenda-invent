@@ -35,9 +35,11 @@ namespace AgendaInvent.Business.Services
 
 		public void Register(string name, string phone)
 		{
-			var hasCtt = GetByPhone(phone);
-			if (hasCtt != null)
+			var hasPhone = _repository.GetByPhone(phone);
+			var hasName = _repository.GetByName(name);
+			if (hasPhone != null || hasName != null)
 				throw new Exception(Errors.ContactExists);
+
 
 			var Ctt = new Contact(name, phone);
 			Ctt.Validate();

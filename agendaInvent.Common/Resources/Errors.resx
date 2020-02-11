@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ContactExists" xml:space="preserve">
-    <value>This contact already exists</value>
+    <value>There is already a contact with this name or phone</value>
   </data>
   <data name="ContactNotFound" xml:space="preserve">
     <value>Contact not found</value>

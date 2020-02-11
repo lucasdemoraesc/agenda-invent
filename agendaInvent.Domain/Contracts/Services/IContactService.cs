@@ -9,6 +9,6 @@ namespace AgendaInvent.Domain.Contracts.Services
 		Contact GetByPhone(string phone);
 
 		void Register(string name, string phone);
-		void Remove(string phone);	// OBS
+		void Remove(string phone);
 	}
 }

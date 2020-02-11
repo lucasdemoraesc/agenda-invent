@@ -23,12 +23,12 @@ namespace AgendaInvent.Infrastructure.Repositories
 
 		public Contact GetByName(string name)
 		{
-			return _context.Ctts.Where(x => x.Name == name.ToLower()).First();
+			return _context.Ctts.Where(x => x.Name == name.ToLower()).FirstOrDefault();
 		}
 
 		public Contact GetByPhone(string phone)
 		{
-			return _context.Ctts.Where(x => x.Phone == phone).First();
+			return _context.Ctts.Where(x => x.Phone == phone).FirstOrDefault();
 		}
 
 		public void Create(Contact ctt)
