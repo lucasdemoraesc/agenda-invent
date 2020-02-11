@@ -6,17 +6,17 @@ Registro de alterações e progresso do sistema.
 
 ### Added
 
-- Dependency resolver
-- Service pattern
+- [Dependency resolver](https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Startup/DependencyResolver.cs)
+- [Service pattern](https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Business/Services/ContactService.cs)
 
 ### Fixed
 
-- Retorno dos métodos .Get* do repositório (.First() -> .FirstOrDefault())
+- Retorno dos métodos .Get* do [repositório](https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Infrastructure/Repositories/ContactRepository.cs) (.First() -> .FirstOrDefault())
 
 ### Changed
 
-- Atualização das mensagens de erro
-- Nome das pastas (agendaInvent -> AgendaInvent)
+- Atualização das [mensagens de erro](https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Common/Resources)
+- [Nome das pastas](https://github.com/lucasdemoraesc/agenda-invent) (agendaInvent -> AgendaInvent)
 
 ### Removed
 
