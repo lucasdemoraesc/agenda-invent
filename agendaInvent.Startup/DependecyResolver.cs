@@ -1,15 +1,10 @@
 ﻿using AgendaInvent.Domain.Contracts.Repositories;
 using AgendaInvent.Infrastructure.Data;
 using AgendaInvent.Infrastructure.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Unity;
 using Unity.Lifetime;
 
-namespace agendaInvent.Startup
+namespace AgendaInvent.Startup
 {
 	public static class DependecyResolver
 	{

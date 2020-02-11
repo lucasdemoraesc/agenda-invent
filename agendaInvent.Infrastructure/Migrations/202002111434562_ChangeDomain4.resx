@@ -117,16 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ContactExists" xml:space="preserve">
-    <value>Este contato já existe</value>
+  <data name="Target" xml:space="preserve">
+    <value>H4sIAAAAAAAEAM1X2Y7bNhR9L9B/IPjsWGMHBVpDSuDaM6nReEE0E+StoKVrmyhFKSQ1sBH0y/rQT+ov5FK7JS8zmaAoDBgWdZdzz93of//+x327jwR5BKV5LD066N9QAjKIQy63Hk3N5tXP9O2bH39wb8NoTz6Wcq+tHGpK7dGdMcnIcXSwg4jpfsQDFet4Y/pBHDksjJ3hzc0vzmDgAJqgaIsQ90MqDY8ge8DHSSwDSEzKxDwOQejiHN/4mVWyYBHohAXg0fEWZMhm8hGk6c/kRjFtVBqYVEF/ygyjZCw4Q1w+iA0lTMrYMIOoRw8afKNiufUTPGDi/pAAym2Y0FBEM6rFnxrYzdAG5tSKpakg1SaOnmlw8LpgymmrfxPftGISubxFzs3BRp3x6VGk3bDAUNL2NZoIZeVabE9Rhst+nqN+od0jrCvTq0oFK8p+emSSCpsjT0JqFBM9skrXgge/w+E+/hOkJ1MhmnARML47OsCjlYoTUObwATZFELOQEudYz2krVmoNnTy+dynH3wv0zdYCqmJoUOGbWME7kKCYgXDFjAElrQnI6Ow4b7my36UzrD5sK0rmbP8e5NbsPPoT9tEd30NYHhQAHiTHJkQdrG04AfCy09Uulpe8DoYv9+o6dT11qywrDo6kFYjGSWKb0x7D/lTFYXMWRacL98cR5mZ9MGXtGqMpqSHk/d6vSvoU1ApUPV+cfMCUg8g5M4ncOUsSZLExmYoT4udjafLKf36HRrkNJ9AnGrVCW3nCSsRea721bRzCHVfaWIbXzCZqEkYdsVYKztBbOmuw3O7BmvRS2P4u8nxlOlcJahmtCb3DGCPUzsKFClc9rTqa2ZpggqkTXT6JRRrJc5PiknbeuE39/OTpFooubJoojro2XKcVfpt0p8N6a+a1M3ip/tsilfeqD1r17ha1d309d4oxF6EEyXnkoS1E/6ANRHk5+J/FRHCMtxaYM8k3oE2+FijuxGFrp/9/9qujdSietmT/89WWSv45BZ7tqQ0HRcnVVfbMNdPcbfKRqWDH1InRPpMh7D36JdMakdmnPxbj+W2PLBVme0QGPTLTDxnYEbnHyU/+6qzIl+y/ZyFb/bZc1NCGV6DZyvyOS7I7yK/swHLZnV+Defd5NFzHyEeO86U7sjsLXKd5oXenoPm2NmGv9xICy3httJTBHRGX2cPImohKkVZy52BYiASNFdY1xoGvA9A6u+N8ZCJFkdtoDeFMLlOTpGasNURrcXRTc53L/rOLwDFmd5nYJ/09QkCYHEOApfw15SKscN+dqKAzJmytFK2MqPCOh+a2h8rSorNnzhkq6JtCgpsbB8E9RIlAY3opffYI34IN73LvYcuCQznSzxu5nohj2t0pZ1vFIl3YqPXtn1TH/kt98xW1MG+k1w4AAA==</value>
   </data>
-  <data name="ContactNotFound" xml:space="preserve">
-    <value>Contato não encontrado</value>
-  </data>
-  <data name="InvalidName" xml:space="preserve">
-    <value>Este nome é inválido</value>
-  </data>
-  <data name="InvalidPhone" xml:space="preserve">
-    <value>Este número de telefone é inválido</value>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
   </data>
 </root>

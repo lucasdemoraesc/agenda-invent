@@ -28,9 +28,6 @@ namespace AgendaInvent.Infrastructure.Data.Map
 					IndexAnnotation.AnnotationName,
 					new IndexAnnotation(new IndexAttribute("IX_PHONE", 2) { IsUnique = true }))
 				.IsRequired();
-
-			Property(x => x.Email)
-				.HasMaxLength(80);
 		}
 	}
 }

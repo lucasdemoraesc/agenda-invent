@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Common", "agen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Infrastructure", "agendaInvent.Infrastructure\AgendaInvent.Infrastructure.csproj", "{B70674E9-2C2E-4C77-86A2-F2466AAD37F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "agendaInvent.Startup", "agendaInvent.Startup\agendaInvent.Startup.csproj", "{59359D67-71CE-4D18-A206-0A9330217EE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Startup", "agendaInvent.Startup\AgendaInvent.Startup.csproj", "{59359D67-71CE-4D18-A206-0A9330217EE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgendaInvent.Business", "AgendaInvent.Business\AgendaInvent.Business.csproj", "{A86477F4-A39C-433C-9F3B-188DFDCEBD17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{59359D67-71CE-4D18-A206-0A9330217EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59359D67-71CE-4D18-A206-0A9330217EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59359D67-71CE-4D18-A206-0A9330217EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A86477F4-A39C-433C-9F3B-188DFDCEBD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A86477F4-A39C-433C-9F3B-188DFDCEBD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A86477F4-A39C-433C-9F3B-188DFDCEBD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A86477F4-A39C-433C-9F3B-188DFDCEBD17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

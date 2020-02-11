@@ -39,7 +39,7 @@ namespace AgendaInvent.Common.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("AgendaInvent.Common.Resources.Errors", typeof(Errors).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("agendaInvent.Common.Resources.Errors", typeof(Errors).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,11 +61,20 @@ namespace AgendaInvent.Common.Resources {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a This e-mail is invalid.
+        ///   Consulta uma cadeia de caracteres localizada semelhante a This contact already exists.
         /// </summary>
-        public static string InvalidEmail {
+        public static string ContactExists {
             get {
-                return ResourceManager.GetString("InvalidEmail", resourceCulture);
+                return ResourceManager.GetString("ContactExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Contact not found.
+        /// </summary>
+        public static string ContactNotFound {
+            get {
+                return ResourceManager.GetString("ContactNotFound", resourceCulture);
             }
         }
         

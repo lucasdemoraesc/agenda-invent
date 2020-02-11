@@ -3,16 +3,16 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class ChangeDomain3 : DbMigration
+    public partial class ChangeDomain4 : DbMigration
     {
         public override void Up()
         {
-            CreateIndex("dbo.Contact", "Name", unique: true, name: "IX_NAME");
+            DropColumn("dbo.Contact", "Email");
         }
         
         public override void Down()
         {
-            DropIndex("dbo.Contact", "IX_NAME");
+            AddColumn("dbo.Contact", "Email", c => c.String(maxLength: 80));
         }
     }
 }

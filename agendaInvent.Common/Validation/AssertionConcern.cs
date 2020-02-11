@@ -32,8 +32,8 @@ namespace AgendaInvent.Common.Validation
 
         public static void AssertArgumentLength(string stringValue, int minimum, int maximum, string message)
         {
-            if (String.IsNullOrEmpty(stringValue))
-                stringValue = String.Empty;
+            if (string.IsNullOrEmpty(stringValue))
+                stringValue = string.Empty;
 
             int length = stringValue.Trim().Length;
             if (length < minimum || length > maximum)
@@ -138,77 +138,77 @@ namespace AgendaInvent.Common.Validation
 
         protected void SelfAssertArgumentEquals(object object1, object object2, string message)
         {
-            AssertionConcern.AssertArgumentEquals(object1, object2, message);
+            AssertArgumentEquals(object1, object2, message);
         }
 
         protected void SelfAssertArgumentFalse(bool boolValue, string message)
         {
-            AssertionConcern.AssertArgumentFalse(boolValue, message);
+            AssertArgumentFalse(boolValue, message);
         }
 
         protected void SelfAssertArgumentLength(string stringValue, int maximum, string message)
         {
-            AssertionConcern.AssertArgumentLength(stringValue, maximum, message);
+            AssertArgumentLength(stringValue, maximum, message);
         }
 
         protected void SelfAssertArgumentLength(string stringValue, int minimum, int maximum, string message)
         {
-            AssertionConcern.AssertArgumentLength(stringValue, minimum, maximum, message);
+            AssertArgumentLength(stringValue, minimum, maximum, message);
         }
 
         protected void SelfAssertArgumentMatches(string pattern, string stringValue, string message)
         {
-            AssertionConcern.AssertArgumentMatches(pattern, stringValue, message);
+            AssertArgumentMatches(pattern, stringValue, message);
         }
 
         protected void SelfAssertArgumentNotEmpty(string stringValue, string message)
         {
-            AssertionConcern.AssertArgumentNotEmpty(stringValue, message);
+            AssertArgumentNotEmpty(stringValue, message);
         }
 
         protected void SelfAssertArgumentNotEquals(object object1, object object2, string message)
         {
-            AssertionConcern.AssertArgumentNotEquals(object1, object2, message);
+            AssertArgumentNotEquals(object1, object2, message);
         }
 
         protected void SelfAssertArgumentNotNull(object object1, string message)
         {
-            AssertionConcern.AssertArgumentNotNull(object1, message);
+            AssertArgumentNotNull(object1, message);
         }
 
         protected void SelfAssertArgumentRange(double value, double minimum, double maximum, string message)
         {
-            AssertionConcern.AssertArgumentRange(value, minimum, maximum, message);
+            AssertArgumentRange(value, minimum, maximum, message);
         }
 
         protected void SelfAssertArgumentRange(float value, float minimum, float maximum, string message)
         {
-            AssertionConcern.AssertArgumentRange(value, minimum, maximum, message);
+            AssertArgumentRange(value, minimum, maximum, message);
         }
 
         protected void SelfAssertArgumentRange(int value, int minimum, int maximum, string message)
         {
-            AssertionConcern.AssertArgumentRange(value, minimum, maximum, message);
+            AssertArgumentRange(value, minimum, maximum, message);
         }
 
         protected void SelfAssertArgumentRange(long value, long minimum, long maximum, string message)
         {
-            AssertionConcern.AssertArgumentRange(value, minimum, maximum, message);
+            AssertArgumentRange(value, minimum, maximum, message);
         }
 
         protected void SelfAssertArgumentTrue(bool boolValue, string message)
         {
-            AssertionConcern.AssertArgumentTrue(boolValue, message);
+            AssertArgumentTrue(boolValue, message);
         }
 
         protected void SelfAssertStateFalse(bool boolValue, string message)
         {
-            AssertionConcern.AssertStateFalse(boolValue, message);
+            AssertStateFalse(boolValue, message);
         }
 
         protected void SelfAssertStateTrue(bool boolValue, string message)
         {
-            AssertionConcern.AssertStateTrue(boolValue, message);
+            AssertStateTrue(boolValue, message);
         }
     }
 }

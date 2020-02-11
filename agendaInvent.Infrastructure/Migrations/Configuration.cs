@@ -1,4 +1,4 @@
-﻿namespace agendaInvent.Infrastructure.Migrations
+﻿namespace AgendaInvent.Infrastructure.Migrations
 {
     using System;
     using System.Data.Entity;

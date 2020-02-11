@@ -117,8 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="InvalidEmail" xml:space="preserve">
-    <value>This e-mail is invalid</value>
+  <data name="ContactExists" xml:space="preserve">
+    <value>This contact already exists</value>
+  </data>
+  <data name="ContactNotFound" xml:space="preserve">
+    <value>Contact not found</value>
   </data>
   <data name="InvalidName" xml:space="preserve">
     <value>This name is invalid</value>
