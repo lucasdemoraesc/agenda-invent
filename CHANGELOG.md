@@ -44,4 +44,4 @@ Registro de alterações e progresso do sistema.
 - Projeto de [testes](https://github.com/lucasdemoraesc/agenda-invent/tree/master/agendaInvent.Test)
 
 [0.0.1]: https://github.com/lucasdemoraesc/agenda-invent/releases/tag/v0.0.1
-[0.0.2]: https://github.com/lucasdemoraesc/agenda-invent/compare/v0.0.1...0.0.2
+[0.0.2]: https://github.com/lucasdemoraesc/agenda-invent/compare/v0.0.1...v0.0.2
