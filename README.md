@@ -1,6 +1,6 @@
 # Agenda de contatos
-Autor: Lucas de Moraes Corrêa
-Empresa solicitante: Invent Software
+**Autor:** Lucas de Moraes Corrêa\
+**Empresa solicitante:** Invent Software
 
 ### Entenda a atividade
 1 - Atualmente uma boa parte dos sistema de mercado interagem entre-se por meio de troca de mensagem em formato json (javascript object notation). Aprenda a criar um pequeno sistema através do vídeo Back-end, são 10 vídeos, mas, molde para a atividade que lhe será solicitado abaixo.
