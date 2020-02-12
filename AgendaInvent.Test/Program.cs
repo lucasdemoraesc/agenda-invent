@@ -1,4 +1,5 @@
 ﻿using AgendaInvent.Domain.Contracts.Services;
+using AgendaInvent.Common.Resources;
 using AgendaInvent.Startup;
 using System;
 using System.Globalization;
@@ -22,8 +23,8 @@ namespace AgendaInvent.Test
 			var service = container.Resolve<IContactService>();
 			try
 			{
-				service.Register("Sâmea Natasha", "62995048152");
-				Console.WriteLine("Usuário cadastrado com sucesso!");
+				service.Register("Leny Teodoro", "66999221160");
+				Console.WriteLine(Messages.RegisteredSuccessfully);
 			}
 			catch (Exception ex)
 			{

@@ -70,6 +70,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\agendaInvent.Common\AgendaInvent.Common.csproj">
+      <Project>{daca0e65-33b5-4885-a0c5-8a9b90ee293d}</Project>
+      <Name>AgendaInvent.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\agendaInvent.Domain\AgendaInvent.Domain.csproj">
       <Project>{69bd27b7-bb22-4167-b2b8-0e04345ebf4c}</Project>
       <Name>AgendaInvent.Domain</Name>
