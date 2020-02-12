@@ -50,7 +50,7 @@ Registro de alterações e progresso do sistema.
 [Service pattern]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Business/Services/ContactService.cs
 [mensagens de erro]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Common/Resources
 [Nome das pastas]: https://github.com/lucasdemoraesc/agenda-invent
-[Domínio]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/agendaInvent.Domain
-[Validações]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/agendaInvent.Common
-[Mapeamento de dados]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/agendaInvent.Infrastructure/Data
-[testes]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/agendaInvent.Test
+[Domínio]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Domain
+[Validações]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Common
+[Mapeamento de dados]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Infrastructure/Data
+[testes]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Test
