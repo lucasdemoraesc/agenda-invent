@@ -129,4 +129,7 @@
   <data name="InvalidPhone" xml:space="preserve">
     <value>This phone number is invalid</value>
   </data>
+  <data name="ServerTokenError" xml:space="preserve">
+    <value>Server access token generation error</value>
+  </data>
 </root>

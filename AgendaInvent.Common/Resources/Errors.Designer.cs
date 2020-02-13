@@ -95,5 +95,14 @@ namespace AgendaInvent.Common.Resources {
                 return ResourceManager.GetString("InvalidPhone", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Server access token generation error.
+        /// </summary>
+        public static string ServerTokenError {
+            get {
+                return ResourceManager.GetString("ServerTokenError", resourceCulture);
+            }
+        }
     }
 }
