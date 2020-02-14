@@ -1,18 +1,14 @@
 ﻿using AgendaInvent.Common.Resources;
-using AgendaInvent.Domain.Contracts.Services;
 using Microsoft.Owin.Security.OAuth;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Web;
 
 namespace AgendaInvent.Api.Security
 {
-	public class AuthorizationServerProvider : OAuthAuthorizationServerProvider
+    public class AuthorizationServerProvider : OAuthAuthorizationServerProvider
     {
         // Valida token existente
         public override async Task ValidateClientAuthentication(OAuthValidateClientAuthenticationContext context)

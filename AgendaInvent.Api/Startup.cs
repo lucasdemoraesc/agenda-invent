@@ -1,6 +1,5 @@
 ﻿using AgendaInvent.Api.Helpers;
 using AgendaInvent.Api.Security;
-using AgendaInvent.Domain.Contracts.Services;
 using AgendaInvent.Startup;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;

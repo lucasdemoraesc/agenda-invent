@@ -37,8 +37,10 @@ namespace AgendaInvent.Business.Services
 		{
 			var hasPhone = _repository.GetByPhone(phone);
 			var hasName = _repository.GetByName(name);
-			if (hasPhone != null || hasName != null)
-				throw new Exception(Errors.ContactExists);
+			if (hasPhone != null)
+				throw new Exception(Errors.ContactPhoneExists);
+			if (hasName != null)
+				throw new Exception(Errors.ContactNameExists);
 
 
 			var Ctt = new Contact(name, phone);

@@ -1,8 +1,7 @@
 ﻿namespace AgendaInvent.Api.Models
 {
-	public class RegisterContactModel
+	public class RemoveContactModel
 	{
-		public string Name { get; set; }
 		public string Phone { get; set; }
 	}
 }
