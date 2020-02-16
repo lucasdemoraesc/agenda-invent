@@ -1,12 +1,9 @@
 ﻿using AgendaInvent.Api.Attributes;
 using AgendaInvent.Domain.Contracts.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Http;
 using WebApi.OutputCache.V2;
 
@@ -26,7 +23,7 @@ namespace AgendaInvent.Api.Controllers
 		[Route("")]
 		[Authorize]
 		[DeflateCompression]
-		[CacheOutput(ClientTimeSpan = 100, ServerTimeSpan = 100)]
+		//[CacheOutput(ClientTimeSpan = 100, ServerTimeSpan = 100)]
 		public Task<HttpResponseMessage> Get()
 		{
 			HttpResponseMessage response = new HttpResponseMessage();
