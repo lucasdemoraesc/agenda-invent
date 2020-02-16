@@ -12,12 +12,12 @@ Registro de alterações e progresso do sistema.
 - [Compressão] e cache (cache desabilitado por padrão)
 - [Método Get] para lista de contatos
 
-## Changed
+### Changed
 
 - Mensagem de erro para contato existente
 - Removida unicidade do atributo Name
 
-## Removed
+### Removed
 
 - Projeto Test (obsoleto)
 
