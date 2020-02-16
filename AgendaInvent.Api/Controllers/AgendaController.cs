@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace AgendaInvent.Api.Controllers
 {
-    [RoutePrefix("api/contacts")]
+    [RoutePrefix("api/agenda")]
     public class AgendaController : ApiController
     {
         private IContactService _service;
