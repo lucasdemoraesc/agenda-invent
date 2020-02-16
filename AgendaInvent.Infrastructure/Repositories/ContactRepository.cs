@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using AgendaInvent.Domain.Contracts.Repositories;
@@ -54,5 +55,9 @@ namespace AgendaInvent.Infrastructure.Repositories
 			_context.Dispose();
 		}
 
+		public List<Contact> GetList(int skip, int take)
+		{
+			return _context.Ctts.OrderBy(x => x.Name).Skip(skip).Take(take).ToList();
+		}
 	}
 }

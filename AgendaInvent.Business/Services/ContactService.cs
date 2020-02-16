@@ -3,6 +3,7 @@ using AgendaInvent.Domain.Contracts.Repositories;
 using AgendaInvent.Domain.Contracts.Services;
 using AgendaInvent.Domain.Models;
 using System;
+using System.Collections.Generic;
 
 namespace AgendaInvent.Business.Services
 {
@@ -31,6 +32,11 @@ namespace AgendaInvent.Business.Services
 				throw new Exception(Errors.ContactNotFound);
 
 			return ctt;
+		}
+
+		public List<Contact> GetByRange(int skip, int take)
+		{
+			return _repository.GetList(skip, take);
 		}
 
 		public void Register(string name, string phone)
