@@ -53,25 +53,13 @@
   <ItemGroup>
     <Compile Include="Data\AppDataContext.cs" />
     <Compile Include="Data\Map\ContactMap.cs" />
-    <Compile Include="Migrations\202002080446335_InitialCreate.cs" />
-    <Compile Include="Migrations\202002080446335_InitialCreate.designer.cs">
-      <DependentUpon>202002080446335_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002080521591_DomainChange.cs" />
-    <Compile Include="Migrations\202002080521591_DomainChange.designer.cs">
-      <DependentUpon>202002080521591_DomainChange.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002080533185_ChangeDomain2.cs" />
-    <Compile Include="Migrations\202002080533185_ChangeDomain2.designer.cs">
-      <DependentUpon>202002080533185_ChangeDomain2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002080536389_ChangeDomain3.cs" />
-    <Compile Include="Migrations\202002080536389_ChangeDomain3.designer.cs">
-      <DependentUpon>202002080536389_ChangeDomain3.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202002111434562_ChangeDomain4.cs" />
     <Compile Include="Migrations\202002111434562_ChangeDomain4.designer.cs">
       <DependentUpon>202002111434562_ChangeDomain4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202002141906478_TestDomain.cs" />
+    <Compile Include="Migrations\202002141906478_TestDomain.designer.cs">
+      <DependentUpon>202002141906478_TestDomain.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -88,20 +76,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202002080446335_InitialCreate.resx">
-      <DependentUpon>202002080446335_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002080521591_DomainChange.resx">
-      <DependentUpon>202002080521591_DomainChange.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002080533185_ChangeDomain2.resx">
-      <DependentUpon>202002080533185_ChangeDomain2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002080536389_ChangeDomain3.resx">
-      <DependentUpon>202002080536389_ChangeDomain3.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002111434562_ChangeDomain4.resx">
       <DependentUpon>202002111434562_ChangeDomain4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002141906478_TestDomain.resx">
+      <DependentUpon>202002141906478_TestDomain.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -7,13 +7,13 @@ namespace AgendaInvent.Infrastructure.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class DomainChange : IMigrationMetadata
+    public sealed partial class TestDomain : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(DomainChange));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(TestDomain));
         
         string IMigrationMetadata.Id
         {
-            get { return "202002080521591_DomainChange"; }
+            get { return "202002141906478_TestDomain"; }
         }
         
         string IMigrationMetadata.Source

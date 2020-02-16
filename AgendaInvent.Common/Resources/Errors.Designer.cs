@@ -61,15 +61,6 @@ namespace AgendaInvent.Common.Resources {
         }
         
         /// <summary>
-        ///   Consulta uma cadeia de caracteres localizada semelhante a There is already a contact with this Name.
-        /// </summary>
-        public static string ContactNameExists {
-            get {
-                return ResourceManager.GetString("ContactNameExists", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Contact not found.
         /// </summary>
         public static string ContactNotFound {

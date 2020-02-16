@@ -12,14 +12,10 @@ namespace AgendaInvent.Infrastructure.Data.Map
 			ToTable("Contact");
 
 			Property(x => x.Id)
-				.HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity)
-;
+				.HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
 
 			Property(x => x.Name)
 				.HasMaxLength(50)
-				.HasColumnAnnotation(
-					IndexAnnotation.AnnotationName,
-					new IndexAnnotation(new IndexAttribute("IX_NAME", 1) { IsUnique = true }))
 				.IsRequired();
 
 			Property(x => x.Phone)

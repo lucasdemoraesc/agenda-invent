@@ -24,16 +24,6 @@ namespace AgendaInvent.Domain.Models
 		#endregion
 
 		#region Methods
-		public void ChangeName(string name)
-		{
-			this.Name = name;
-		}
-
-		public void ChangePhone(string phone)
-		{
-			this.Phone = phone;
-		}
-
 		public void Validate()
 		{
 			AssertionConcern.AssertArgumentLength(this.Name, 3, 50, Errors.InvalidName);

@@ -3,6 +3,8 @@ using AgendaInvent.Api.Security;
 using AgendaInvent.Startup;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.OAuth;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using Owin;
 using System;
 using System.Web.Http;
@@ -29,6 +31,18 @@ namespace AgendaInvent.Api
 
 		public static void ConfigureWebApi(HttpConfiguration config)
 		{
+			// Remover o XML
+			var formatters = config.Formatters;
+			formatters.Remove(formatters.XmlFormatter);
+
+			// Modificar a identação
+			var JsonSettings = formatters.JsonFormatter.SerializerSettings;
+			JsonSettings.Formatting = Formatting.Indented;
+			JsonSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
+			// Modificar a serialização
+			formatters.JsonFormatter.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
+
 			config.MapHttpAttributeRoutes();
 
 			config.Routes.MapHttpRoute(
