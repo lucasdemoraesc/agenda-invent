@@ -2,6 +2,25 @@
 
 Registro de alterações e progresso do sistema.
 
+## [0.0.3] - 2020-02-16
+
+### Added
+
+- [Mensagens de confirmação]
+- [Resolução de dependencias] na Api
+- Configuração do [OAuth na API] (autorização sem login)
+- [Compressão] e cache (cache desabilitado por padrão)
+- [Método Get] para lista de contatos
+
+## Changed
+
+- Mensagem de erro para contato existente
+- Removida unicidade do atributo Name
+
+## Removed
+
+- Projeto Test (obsoleto)
+
 ## [0.0.2] - 2020-02-11
 
 ### Added
@@ -45,6 +64,7 @@ Registro de alterações e progresso do sistema.
 
 [0.0.1]: https://github.com/lucasdemoraesc/agenda-invent/releases/tag/v0.0.1
 [0.0.2]: https://github.com/lucasdemoraesc/agenda-invent/compare/v0.0.1...v0.0.2
+[0.0.3]: https://github.com/lucasdemoraesc/agenda-invent/compare/v0.0.2...v0.0.3
 
 [Dependency resolver]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Startup/DependencyResolver.cs
 [Service pattern]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Business/Services/ContactService.cs
@@ -54,3 +74,8 @@ Registro de alterações e progresso do sistema.
 [Validações]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Common
 [Mapeamento de dados]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Infrastructure/Data
 [testes]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Test
+[Mensagens de confirmação]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Common/Resources
+[Resolução de dependencias]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Api/Helpers/UnityResolver.cs
+[OAuth na API]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Api/Security/AuthorizationServerProvider.cs
+[Compressão]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Api/Helpers/CompressionHelper.cs
+[Método Get]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Api/Controllers/ContactsController.cs
