@@ -7,7 +7,7 @@ Registro de alterações e progresso do sistema.
 ### Added:
 
 - [Migração] para banco de dados no Azure (temporário/teste)
-- Implementação da Api no Azure (https://agenda-invent.azurewebsites.net)
+- Implantação da Api no Azure (https://agenda-invent.azurewebsites.net)
 
 ## [0.0.3] - 2020-02-16
 
