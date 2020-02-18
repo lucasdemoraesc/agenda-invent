@@ -7,13 +7,13 @@ namespace AgendaInvent.Infrastructure.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.0")]
-    public sealed partial class ChangeDomain4 : IMigrationMetadata
+    public sealed partial class AzureMigration : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ChangeDomain4));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AzureMigration));
         
         string IMigrationMetadata.Id
         {
-            get { return "202002111434562_ChangeDomain4"; }
+            get { return "202002180120119_AzureMigration"; }
         }
         
         string IMigrationMetadata.Source

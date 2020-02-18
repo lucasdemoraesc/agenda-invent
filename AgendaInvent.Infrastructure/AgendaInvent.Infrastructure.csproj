@@ -53,13 +53,9 @@
   <ItemGroup>
     <Compile Include="Data\AppDataContext.cs" />
     <Compile Include="Data\Map\ContactMap.cs" />
-    <Compile Include="Migrations\202002111434562_ChangeDomain4.cs" />
-    <Compile Include="Migrations\202002111434562_ChangeDomain4.designer.cs">
-      <DependentUpon>202002111434562_ChangeDomain4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202002141906478_TestDomain.cs" />
-    <Compile Include="Migrations\202002141906478_TestDomain.designer.cs">
-      <DependentUpon>202002141906478_TestDomain.cs</DependentUpon>
+    <Compile Include="Migrations\202002180120119_AzureMigration.cs" />
+    <Compile Include="Migrations\202002180120119_AzureMigration.designer.cs">
+      <DependentUpon>202002180120119_AzureMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,11 +72,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202002111434562_ChangeDomain4.resx">
-      <DependentUpon>202002111434562_ChangeDomain4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202002141906478_TestDomain.resx">
-      <DependentUpon>202002141906478_TestDomain.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202002180120119_AzureMigration.resx">
+      <DependentUpon>202002180120119_AzureMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
