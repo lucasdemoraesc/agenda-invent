@@ -1,0 +1,64 @@
+<mvc:View
+	controllerName="agendainvent.controller.NewContactPanel"
+	xmlns:m="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:f="sap.ui.layout.form">
+	<m:Panel headerText="Novo contato" expandable="true" width="auto" class="sapUiResponsiveMargin">
+		<m:content>
+			<f:SimpleForm id="cadForm" editable="true">
+				<f:content>
+					<m:Label text="{i18n>lblNomeText}" labelFor="inputName" class="sapUiSmallMarginEnd"/>
+					<m:Input
+						id="inputName"
+						type="Text"
+						validationError="handleValidationError"
+						validationSuccess="handleValidationSuccess"
+						valueStateText="{i18n>iptNameVState}"
+						placeholder="{i18n>iptPlaceholder}" 
+						valueLiveUpdate="true"
+						required="true"
+						width="40%" 
+						maxLength="50"
+						value="{
+							path : '/recipient/name',
+							type : 'sap.ui.model.type.String',
+							constraints : {
+								search: '^[A-Z a-z à-ú À-Ú]*$',
+								minLength: 3,
+								maxLength: 50
+							}
+						}"
+						change=".onIptChange"/>
+					<m:Label text="{i18n>lblPhoneText}" labelFor="inputPhone" class="sapUiSmallMarginEnd"/>
+					<m:Input 
+						id="inputPhone"
+						validationError="handleValidationError"
+						validationSuccess="handleValidationSuccess"
+						valueStateText="{i18n>iptPhoneVState}"
+						placeholder="{i18n>iptPlaceholder}" 
+						valueLiveUpdate="true" 
+						required="true"
+						width="40%"
+						maxLength="13"
+						value="{
+							path : '/recipient/phone',
+							type: 'sap.ui.model.type.String',
+							constraints : {
+							search: '^[0-9]*$',
+								minLength: 11,
+								maxLength: 13
+							}
+						}"
+						change=".onIptChange"/>
+				</f:content>
+			</f:SimpleForm>
+			<m:FlexBox
+				alignItems="Center"
+				justifyContent="Center">
+				<m:items>
+					<m:Button text="{i18n>cadBtnMsg}" press=".onCadBtnPress" width="100%" icon="sap-icon://add-contact" class="sapUiSmallMargin"/>
+				</m:items>
+			</m:FlexBox>
+		</m:content>
+	</m:Panel>
+</mvc:View>

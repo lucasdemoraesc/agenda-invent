@@ -1,0 +1,18 @@
+<mvc:View 
+controllerName="agendainvent.controller.App" 
+xmlns:m="sap.m"
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns:f="sap.ui.layout.form"
+displayBlock="true">
+	<m:Shell>
+		<m:App>
+			<m:pages>
+				<m:Page title="{i18n>homePageTitle}">
+					<m:content>
+						<mvc:XMLView viewName="agendainvent.view.NewContactPanel"/>
+					</m:content>
+				</m:Page>
+			</m:pages>
+		</m:App>
+	</m:Shell>
+</mvc:View>
