@@ -2,6 +2,14 @@
 
 Registro de alterações e progresso do sistema.
 
+## [0.0.5] - 2020-02-24
+
+### Added:
+
+- Inicialização do projeto para [front-end]
+- Interface (View) para cadastro de contatos
+- Validações no cadastro de contatos
+
 ## [0.0.4] - 2020-02-17
 
 ### Added:
@@ -73,6 +81,7 @@ Registro de alterações e progresso do sistema.
 [0.0.2]: https://github.com/lucasdemoraesc/agenda-invent/compare/v0.0.1...v0.0.2
 [0.0.3]: https://github.com/lucasdemoraesc/agenda-invent/compare/v0.0.2...v0.0.3
 [0.0.4]: https://github.com/lucasdemoraesc/agenda-invent/compare/v0.0.3...v0.0.4
+[0.0.5]: https://github.com/lucasdemoraesc/agenda-invent/compare/v0.0.4...v0.0.5
 
 [Dependency resolver]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Startup/DependencyResolver.cs
 [Service pattern]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Business/Services/ContactService.cs
@@ -88,3 +97,4 @@ Registro de alterações e progresso do sistema.
 [Compressão]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Api/Helpers/CompressionHelper.cs
 [Método Get]: https://github.com/lucasdemoraesc/agenda-invent/blob/master/AgendaInvent.Api/Controllers/ContactsController.cs
 [Migração]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/AgendaInvent.Infrastructure/Migrations
+[front-end]: https://github.com/lucasdemoraesc/agenda-invent/tree/master/agendainvent
